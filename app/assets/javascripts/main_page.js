@@ -1,7 +1,7 @@
 (function($) {
-    "use strict"; // Start of use strict
+    "use strict";
 
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    // jQuery for page scrolling feature(requires jQuery Easing gem)
     $(document).on('click', 'a.page-scroll', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -28,7 +28,7 @@
         }
     })
 
-    // Initialize and Configure Scroll Reveal Animation
+    // Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
@@ -45,20 +45,4 @@
         distance: '0px'
     }, 300);
 
-    // Initialize and Configure Magnific Popup Lightbox Plugin
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-        }
-    });
-
-})(jQuery); // End of use strict
+})(jQuery); 
