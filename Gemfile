@@ -15,7 +15,6 @@ gem 'sass-rails', '~> 5.0'
 # I added:
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-easing-rails'
-gem 'less-rails', '~> 2.7.0'
 gem 'magnific-popup-rails', '~> 1.1.0'
 
 # Use Uglifier as compressor for JavaScript assets
