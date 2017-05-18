@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello and welcome to the Github for my portfolio site
 
-Things you may want to cover:
+My site includes:
 
-* Ruby version
+* Ruby on Rails 
 
-* System dependencies
+* HTML
 
-* Configuration
+* CSS
 
-* Database creation
+* Bootstrap
 
-* Database initialization
+* Javascript
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+There are a few poorly hidden Easter Eggs. *hint* font awesome
