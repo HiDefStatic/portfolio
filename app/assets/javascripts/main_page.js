@@ -45,4 +45,4 @@
         distance: '0px'
     }, 300);
 
-})(jQuery); 
+})(jQuery);
