@@ -43,6 +43,6 @@
         duration: 600,
         scale: 0.3,
         distance: '0px'
-    }, 300);
+    }, 200);
 
 })(jQuery);
