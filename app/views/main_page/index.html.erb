@@ -122,7 +122,7 @@
         </li>
         <li>
           <div class="timebox">
-            <time>June 14</time> Attending Tech Inclusion Seattle, a full day conference focusing on solutions to diversity and inclusion within the tech ecosystem. 
+            <time>June 14</time> Attending Tech Inclusion Seattle, a full day conference focusing on solutions to diversity and inclusion within the tech ecosystem.
           </div>
         </li>
         <li>
@@ -147,8 +147,23 @@
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
+              <div class="col-lg-4 col-sm-6">
+                  <a target="_blank"  class="portfolio-box" data-toggle="modal", data-target="#portfolioModal">
+                      <%= image_tag("portfolio/thumbnails/portfolio_screen.png", class: "img-responsive") %>
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  Portfolio Site
+                              </div>
+                              <div class="project-name">
+                                  WhatsTheDeel.com
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a target="_blank"  class="portfolio-box">
+                    <a target="_blank"  class="portfolio-box" data-toggle="modal", data-target="#cityGemsModal">
                         <%= image_tag("portfolio/thumbnails/city_gems.png", class: "img-responsive") %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -236,6 +251,73 @@
   </div>
 </div>
 
+<!-- MODALS -->
+
+<!-- **** Portfolio Modals **** -->
+
+<!-- City Gems Modal -->
+<div id="cityGemsModal" class="modal fade" role="dialog">
+  <div class="modal-image">
+
+    <!-- Modal Content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">City Gems</h4>
+      </div>
+      <div class="modal-body" id="modalText">
+        <p>City Gems was our final project at Dev Bootcamp consisting of myself and 3 other people. This app allows users to showcase and find those hidden "gems" within thier cities! From a cool spot in a park to a hidden mural in an alleyway!
+        </p>
+        <p>During this project, we had exactly 9 days to implement a project from scratch. To do so we utilized the following technologies:
+        </p>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Mapbox API</li>
+          <li>Javascript</li>
+          <li>AWS S3</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <p>For a full list of the tech used for this project, and if you'd like to see our code, <a target="_blank" href="https://github.com/TEAM-KAST/City_Gems">visit our Github</a>!</p>
+        <p>To see the app in action,<a target="_blank" href="http://city-gems.herokuapp.com/">click here</a>!</p>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal -->
+<div id="portfolioModal" class="modal fade" role="dialog">
+  <div class="modal-image">
+
+    <!-- Modal Content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Portfolio Site</h4>
+      </div>
+      <div class="modal-body" id="modalText">
+        <p>Welcome to my portfolio site! This site is actually a Ruby on Rails single page application! I decided to make this site in the Rails framework for the extra practice and challenge! It offered me a lot of insight on converting existing code, as well as becoming more familiar with the asset pipeline. The application is hosted on Heroku, with the URL being aliased with a domain I had already purchased. This application utilizes the following tech:
+        </p>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Javascript</li>
+          <li>Bootstrap</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Heroku</li>
+        </ul>
+        <p>If you'd like to see my code, please <a target="_blank" href="https://github.com/HiDefStatic/portfolio">visit my Github</a>!</p>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
 <!-- Bike Modal -->
 <div id="bikeModal" class="modal fade" role="dialog">
   <div class="modal-image">
@@ -249,18 +331,7 @@
   </div>
 </div>
 
-<!-- Portfolio Modal -->
-<div id="portfolioModal" class="modal fade" role="dialog">
-  <div class="modal-image">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-body">
-        <p>"look at this test!"</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 </script>
