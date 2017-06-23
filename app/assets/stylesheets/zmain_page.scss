@@ -436,18 +436,22 @@ body.modal-open[style] {
 }
 
 .modal-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: auto;
+  margin: 0 auto;
 }
 
 .modal-content {
   margin: 0 auto;
   display:inline-block;
   align-self: center;
+  overflow: scroll;
+  max-height: 95vh;
+  min-width: 70vw;
 }
 
 .modal-body {
@@ -455,11 +459,17 @@ body.modal-open[style] {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 .modal-img {
   max-width: 100vw;
   max-height: 100vh;
+}
+
+#modalText {
+  margin: 10px;
 }
 
 body {
