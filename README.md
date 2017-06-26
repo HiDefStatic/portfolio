@@ -14,4 +14,4 @@ My site includes:
 
 * Javascript
 
-There are a few poorly hidden Easter Eggs. *hint* font awesome
+There are a few poorly hidden Easter Eggs. **hint** font awesome
